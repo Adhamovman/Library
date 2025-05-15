@@ -1,0 +1,5 @@
+#root>* {
+    background: url('/images/bg_img.jpeg');
+    background-blend-mode: soft-light;
+
+}
