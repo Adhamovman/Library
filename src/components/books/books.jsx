@@ -41,7 +41,7 @@ function BooksSection({ books, cardBg, cardBorder, textColor }) {
               className="rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:shadow-lg hover:-translate-y-1 cursor-pointer"
               style={{ backgroundColor: cardBg, borderColor: cardBorder, borderWidth: '1px' }}
             >
-              <a href={book.url}>
+              <a href={book.url} target="_blank" rel="noopener noreferrer">
                 <div className="h-64 overflow-hidden flex items-center justify-center">
                   <img src={book.image} alt={book.title} className="h-full object-cover" />
                 </div>
