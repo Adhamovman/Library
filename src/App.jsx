@@ -13,10 +13,10 @@ import VideosSection from './components/videos/videos';
 import logo from './assets/favicon.png';
 
 const theme = {
-  primary: '#1E5B94',
+  primary: 'rgb(11, 11, 75)',
   secondary: '#FFFFFF',
   accent: '#24A96B',
-  dark: '#03204C',
+  dark: 'rrgb(5, 5, 56)',
   light: '#F5F7FA',
   textDark: '#031B34',
   textLight: '#FFFFFF',
