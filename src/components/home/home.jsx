@@ -15,9 +15,9 @@ function HomeSection({ theme, cardBg, cardBorder, textColor, jadids, books }) {
           <button
             className="text-sm flex items-center"
             style={{ color: textColor }}
-            onClick={() => { document.location.href = '/jadids' }}
+            onClick={() => { }}
           >
-            Barchasini ko'rish
+            <a href="/jadids">Barchasini ko'rish</a>
           </button>
         </div>
 
@@ -48,9 +48,9 @@ function HomeSection({ theme, cardBg, cardBorder, textColor, jadids, books }) {
           <button
             className="text-sm flex items-center"
             style={{ color: textColor }}
-            onClick={() => { document.location.href = '/books' }}
+            onClick={() => { }}
           >
-            Barchasini ko'rish
+            <a href="/books">Barchasini ko'rish</a>
           </button>
         </div>
 

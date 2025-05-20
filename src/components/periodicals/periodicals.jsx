@@ -14,7 +14,7 @@ function PeriodicalsSection({ periodicals, cardBg, cardBorder, textColor }) {
             className="rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:shadow-lg hover:-translate-y-1 cursor-pointer"
             style={{ backgroundColor: cardBg, borderColor: cardBorder, borderWidth: '1px' }}
           >
-            <a href={periodical.url}>
+            <a href={periodical.url} target="_blank" rel="noopener noreferrer">
               <div className="overflow-hidden text-center flex items-center justify-center">
                 <img src={periodical.image} alt={periodical.title} style={{ maxWidth: "300px" }} className="w-full h-full object-cover" />
               </div>
