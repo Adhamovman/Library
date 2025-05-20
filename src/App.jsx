@@ -16,7 +16,7 @@ const theme = {
   primary: 'rgb(11, 11, 75)',
   secondary: '#FFFFFF',
   accent: '#24A96B',
-  dark: 'rrgb(5, 5, 56)',
+  dark: 'rgb(5, 5, 56)',
   light: '#F5F7FA',
   textDark: '#031B34',
   textLight: '#FFFFFF',
